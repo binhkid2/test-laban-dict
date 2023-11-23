@@ -27,7 +27,7 @@
 			setTimeout(function () {
 				null == document.getElementById('lbdictex_find_popup') &&
 					loadScript(
-						'https://stc-laban.zdn.vn/dictionary/js/plugin/lbdictplugin.min.js?' +
+						'https://cors-anywhere.herokuapp.com/https://stc-laban.zdn.vn/dictionary/js/plugin/lbdictplugin.min.js?' +
 							(Date.now() % 1e4),
 						function () {
 							lbDictPlugin.init(lbplugin_event_opt);
